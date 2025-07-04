@@ -17,3 +17,6 @@ pip install -r requirements.txt
 
 
 Note: The questions are just smaple ones.
+Note:
+Claude Desktop integration was not tested as it now requires a Claude Pro subscription. 
+However, all MCP endpoints were tested successfully using Postman and return correct results.

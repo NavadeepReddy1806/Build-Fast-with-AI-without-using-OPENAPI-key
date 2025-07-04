@@ -1,0 +1,49 @@
+#Note: This is just a sample version so just did this
+
+COMMAND 1
+User Prompt:
+Generate 3 multiple-choice questions on Python loops.
+
+Server Response:
+{
+  "topic": "Python loops",
+  "mcqs": [
+    {
+      "question": "What is question 1 on Python loops?",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "answer": "Option A"
+    },
+    ...
+  ]
+}
+
+COMMAND 2
+User Prompt:
+Provide a lesson plan for algebra.
+
+Server Response:
+{
+  "subject": "Algebra",
+  "lesson_plan": {
+    "title": "Lesson Plan for Algebra",
+    "objectives": [...],
+    "activities": [...],
+    "assessment": [...]
+  }
+}
+
+COMMAND 3 (Bonus)
+User Prompt:
+Generate 4 flashcards on Machine Learning.
+
+Server Response:
+{
+  "topic": "Machine Learning",
+  "flashcards": [
+    {
+      "term": "Machine Learning Term 1",
+      "definition": "Definition of Machine Learning Term 1"
+    },
+    ...
+  ]
+}

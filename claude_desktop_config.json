@@ -1,0 +1,22 @@
+{
+  "mcp_servers": [
+    {
+      "name": "EduChain Local Server",
+      "url": "http://127.0.0.1:5000",
+      "tools": [
+        {
+          "name": "MCQ Generator",
+          "endpoint": "/tool/mcqs",
+          "method": "POST"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Lesson Plan Generator",
+          "endpoint": "/resource/lessonplan",
+          "method": "POST"
+        }
+      ]
+    }
+  ]
+}
